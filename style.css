@@ -1,0 +1,29 @@
+/* ===== Minimal Professional Theme ===== */
+
+.stApp {
+    background-color: #FFFDF9;
+}
+
+/* KPI Cards only */
+[data-testid="stMetric"] {
+    background-color: white;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+/* KPI value */
+[data-testid="stMetricValue"] {
+    font-weight: 700;
+}
+
+/* Sidebar - very light change */
+[data-testid="stSidebar"] {
+    background-color: #FFF7ED;
+}
+
+/* Section headings - small change */
+h2, h3 {
+    font-weight: 600;
+}
